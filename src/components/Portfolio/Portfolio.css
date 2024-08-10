@@ -1,0 +1,42 @@
+.Portfolio-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.portfolio-menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+.portfolio-menu>p{
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+.active-menu{
+    border-bottom: 3px solid var(--red);
+    
+}
+.portfolio-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(340px, 1fr));
+    gap: 15px;
+}
+.portfolio{
+    background: var(--bg);
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    
+}
+.portfolio>img{
+    max-width: 100%;
+    max-height: 90%;
+}
+.portfolio>img:hover{
+    opacity: 0.7;
+    
+}
+.portfolio>div{
+   margin: 0 auto;
+   padding: 5px;
+}

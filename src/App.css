@@ -1,0 +1,77 @@
+:root{
+  --bg:#f2f5f9;
+  --gradient:linear-gradient(to right,#ff9c1b,#ec1b09);
+  --menu:#e1e8ef;
+  --card:#ffeed9;
+  --yellow:#ff9c1b;
+  --red:#ec1b09;
+  
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.App{
+  min-height: 100vh;
+  background: var(--bg);
+  min-width: 100vw;
+  padding: 3rem 10rem;
+  position: relative;
+  z-index: 1;
+}
+.svg-img{
+  position: absolute;
+  z-index: 2;
+  width: 100px; 
+  opacity: 0.3;
+
+}
+.svg-img:nth-child(1){
+  top: 40%;
+  left: 5%;
+
+}
+.svg-img:nth-child(2){
+  top: 1%;
+  left: 19%;
+
+}
+.svg-img:nth-child(3){
+  top: 10%;
+  right: 4%;
+
+}
+.svg-img:nth-child(4){
+  top: 19%;
+  right: 53%;
+
+}
+.svg-img:nth-child(5){
+  top: 70%;
+  left: 70%;
+
+}
+.svg-img:nth-child(6){
+  top: 30%;
+  right: 4%;
+
+}
+
+@media(max-width:800px){
+  .App{
+    padding: 1rem;
+    position: relative;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+  .svg-img>img{
+    size: 2px;
+    font-size: 12px;
+  }
+}

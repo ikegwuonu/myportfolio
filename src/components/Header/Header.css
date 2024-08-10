@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Pacifico&display=swap');
+.Header{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: static;
+    top: 0;
+}
+.logo{
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo>p{
+    font-size: 19px;
+}
+.logo>img{
+    width: 50px;
+    height: 50px;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-color{
+    background: linear-gradient(to bottom, var(--yellow), var(--red));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+.menu-intro{
+    display: flex;
+    justify-content: space-between;
+    padding: 23px 0;
+}
+.menu{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: 'Outfit',cursive,Ecuador, Arial, Helvetica, sans-serif;
+    padding: 5px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    
+}
+.menu>div{
+    padding: 1.3rem;
+    border-radius: 5px;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: center;justify-content: center;
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+.menu>div>img{
+    transition: transform 0.3s ease;
+}
+.menu>div>p{
+    font-size: 13px;
+    transition: color 0.3s ease;
+}
+.active{
+    background: var(--gradient);
+    color: white;
+}
+.not-active{
+    background: var(--menu);
+}
+.display{
+    display:none;
+}
+
+@media(max-width:800px){
+    
+    .menu-intro{
+        justify-content: center;
+        padding: 5px;
+    }
+    .menu-intro:nth-child(1){
+        display: none;
+    }
+    .menu{
+        gap: 1rem;
+        padding: 5px;
+    }
+    .menu>div{
+        padding: 0.1rem;
+    }
+    .menu>div>img{
+        width: 20px;
+        height: 20px;
+    }
+    .menu>div>p{
+        font-size: 10px;
+    }
+    .display{
+        display: block;
+        cursor: pointer;
+    }
+    .logo>img{
+        width: 20px;
+        height: 20px;
+    }
+}

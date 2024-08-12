@@ -37,6 +37,7 @@
     border-radius: 5px;
     width: 40px;
     height: 40px;
+    overflow: hidden;
 }
 .contact{
     background: var(--bg);
@@ -100,6 +101,9 @@ hr{
     .left-side.toggle{
         transform: translateX(0);
         display: flex;
+        position: absolute;
+        top:0;
+
     }
     .right-side{
         padding: 5px;

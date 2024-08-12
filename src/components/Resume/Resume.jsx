@@ -7,7 +7,7 @@ const Resume = () => {
     
       <div className='contact-one'>
         <h2>Resume</h2>
-        <img src="./Line 5.png" alt="" />
+        <img src="./Line 5.png" alt="" className='line'/>
       </div>
       <div className='what-i-do'>
         <div className='what-one'>

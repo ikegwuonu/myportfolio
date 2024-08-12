@@ -19,7 +19,7 @@ a{
   color: inherit;
 }
 .App{
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  font-family: 'Comic Sans MS', 'Comic Sans', sans-serif;
   min-height: 100vh;
   background: var(--bg);
   min-width: 100vw;

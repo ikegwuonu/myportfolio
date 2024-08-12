@@ -17,8 +17,12 @@ const Body = () => {
             <h2>Juliet Ikegwuonu</h2>
             <p>Frontend Developer</p>
             <div className='socials-div'>
-                <img src="./Vector (1).svg" className='socials' alt="linkedin" />
-                <img src="./ri_github-fill.png" className='socials' alt="github" />
+                <a href="https://github.com/ikegwuonu">
+                    <img src="./Vector (1).svg" className='socials' alt="linkedin" />
+                </a>
+                <a href="http://wwww.linkedin.com/in/juliet-ikegwuonu">
+                    <img src="./ri_github-fill.png" className='socials' alt="github" />
+                </a>
             </div>
             <div className='contact'>
                 <div className='contact-detail'>

@@ -40,3 +40,10 @@
    margin: 0 auto;
    padding: 5px;
 }
+@media(max-width:500px){
+    .portfolio-list{
+        
+        grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
+       
+    }
+}

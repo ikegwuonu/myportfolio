@@ -6,6 +6,7 @@
   --card:#ffeed9;
   --yellow:#ff9c1b;
   --red:#ec1b09;
+  scroll-behavior: smooth;
   
 }
 *{

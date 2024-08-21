@@ -17,9 +17,10 @@
     background: var(--menu);
 
 }
- .active-menu{
+.active-menu{
     color: white;
-    background: var(--gradient);
+    background: var(--gradient) !important;
+    border: none !important;
     
 }
 .portfolio-list{

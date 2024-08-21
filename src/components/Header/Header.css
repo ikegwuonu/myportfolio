@@ -27,6 +27,8 @@
     background: linear-gradient(to bottom, var(--yellow), var(--red));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-family: 'Pacifico', cursive;
+    
    
 }
 .menu-intro{

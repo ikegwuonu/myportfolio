@@ -24,6 +24,7 @@ const Portfolio = () => {
             <button onClick={()=>setMenuProducts(portfolioData)} className={`${menuProducts===portfolioData?"active-menu":""}`}>All</button>
             <button onClick={()=>filter("react")} className={`${menuProducts[0].framework==="react"?"active-menu":""}`}>React</button>
             <button onClick={()=>filter("html")} className={`${menuProducts[0].framework==="html"?"active-menu":""}`}>Bootstrap</button>
+            <button onClick={()=>filter("scss")} className={`${menuProducts[0].framework==="scss"?"active-menu":""}`}>SCSS</button>
             {/*<p onClick={()=>filterLibrary("SCSS")} className={`${menuProducts[0].library==="SCSS"?"active-menu":""}`}>SCSS</p>*/}
             <button>Webpack</button>
             <button>API</button>

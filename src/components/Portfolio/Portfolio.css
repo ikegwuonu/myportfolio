@@ -7,18 +7,19 @@
     
 }
 .portfolio-menu>button{
-    
-    font-size: 16px;
+    border: 1px solid gray;
+    font-size: 15px;
     cursor: pointer;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-    padding: 1rem;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
     border-radius: 25px;
     background: var(--menu);
 
 }
-.portfolio-menu>button .active-menu{
-    border: 3px solid var(--red);
+ .active-menu{
+    color: white;
+    background: var(--gradient);
     
 }
 .portfolio-list{

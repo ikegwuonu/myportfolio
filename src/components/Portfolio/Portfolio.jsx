@@ -21,13 +21,13 @@ const Portfolio = () => {
             <img src="./Line 5.png" alt="line gradient" className='line'/>
         </div>
         <div className='portfolio-menu'>
-            <p onClick={()=>setMenuProducts(portfolioData)} className={`${menuProducts===portfolioData?"active-menu":""}`}>All</p>
-            <p onClick={()=>filter("react")} className={`${menuProducts[0].framework==="react"?"active-menu":""}`}>React</p>
-            <p onClick={()=>filter("html")} className={`${menuProducts[0].framework==="html"?"active-menu":""}`}>HTML & CSS</p>
+            <button onClick={()=>setMenuProducts(portfolioData)} className={`${menuProducts===portfolioData?"active-menu":""}`}>All</button>
+            <button onClick={()=>filter("react")} className={`${menuProducts[0].framework==="react"?"active-menu":""}`}>React</button>
+            <button onClick={()=>filter("html")} className={`${menuProducts[0].framework==="html"?"active-menu":""}`}>Bootstrap</button>
             {/*<p onClick={()=>filterLibrary("SCSS")} className={`${menuProducts[0].library==="SCSS"?"active-menu":""}`}>SCSS</p>*/}
-            <p>Webpack</p>
-            <p>API</p>
-            <p>Redux</p>
+            <button>Webpack</button>
+            <button>API</button>
+            <button>Redux</button>
         </div>
         <div className='portfolio-list'>
             {menuProducts.map((portfolio, index)=>
@@ -36,7 +36,7 @@ const Portfolio = () => {
                     <img src={portfolio.img} alt="portfolio image" />
                     <div>
                         <p>{portfolio.name}</p>
-                        <p ><a>Go to link</a></p>
+                        <p ><a href={portfolio.link}>Go to link</a></p>
                     </div>
                 </div>
                 ))}

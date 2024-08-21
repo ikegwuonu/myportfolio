@@ -4,18 +4,21 @@
     gap: 1rem;
 }
 .portfolio-menu{
-    display: flex;
-    justify-content: space-evenly;
+    
 }
 .portfolio-menu>button{
-    font-weight: bold;
+    
     font-size: 16px;
     cursor: pointer;
     margin-right: 1rem;
     margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 25px;
+    background: var(--menu);
+
 }
-.active-menu{
-    border-bottom: 3px solid var(--red);
+.portfolio-menu>button .active-menu{
+    border: 3px solid var(--red);
     
 }
 .portfolio-list{

@@ -7,8 +7,8 @@ export const portfolioData=[
         img:"./Hero.png"
     },
     {
-        name:" Skin Care",
-        link:"#",
+        name:"GlowGenics",
+        link:"https://ikegwuonu.github.io/GlowGenics/",
         library:"scss",
         framework:"scss",
         img:"./Hero (1).png"

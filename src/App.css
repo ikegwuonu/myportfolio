@@ -24,7 +24,7 @@ a{
   font-family: 'Comic Sans MS', 'Comic Sans', sans-serif;
   min-height: 100vh;
   background: var(--bg);
-  min-width: 100vw;
+  
   padding: 3rem 10rem;
   position: relative;
   z-index: 1;

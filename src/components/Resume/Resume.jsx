@@ -57,8 +57,7 @@ const Resume = () => {
             React.js, Next.js, SASS/SCSS, Bootstrap, Tailwind CSS, Redux
           </li>
           <li>
-            <b>Tools & Technologies:</b> Git, GitHub, Webpack, NPM, 
-            API's
+            <b>Tools & Technologies:</b> Git, GitHub, Webpack, NPM, API's
           </li>
           <li>
             <b>Design & Prototyping:</b> Responsive Web design, Cross-browser
@@ -73,36 +72,39 @@ const Resume = () => {
         </ul>
       </motion.div>
       <motion.div className='variants={fadeIn("left","tween",0.8,1)}'>
-        <h3>Professional Experience & Projects</h3>
+        <br />
+        <h3>Professional Experience & Projects</h3> <br />
         <p>
           Azany | Frontend Developer <br />
-         Translated complex Figma designs into responsive, pixel-perfect web pages using React and Next.js <br />
-
-Built and integrated RESTful APIs with tools like Postman, React Query, and Zustand for efficient data fetching and state management <br />
-
-Developed core features for a B2B e-commerce platform, including: <br />
-
-Buyer flow: bulk product ordering, bargaining system, and seamless checkout <br />
-
-Seller flow: product listings, subscription plans, withdrawals, bank account verification, shipping info, and shareable product links <br />
-
-Implemented secure payment systems and integrated various UI component libraries such as Rizz UI and Headless UI <br />
-
-Used Recharts for dynamic data visualizations and integrated libraries like react-phone-input and PDF editing tools <br />
-
-Collaborated in DevOps tasks including version control with GitHub and CI/CD workflows <br />
-
-Focused on performance, user experience, and mobile responsiveness across all pages <br />
+          - Translated complex Figma designs into responsive, pixel-perfect web
+          pages using React and Next.js <br />
+          Built and integrated RESTful APIs with tools like Postman, React
+          Query, and Zustand for efficient data fetching and state management{" "}
+          <br />- Developed core features for a B2B e-commerce platform,
+          including: <br />
+          Buyer flow: bulk product ordering, bargaining system, and seamless
+          checkout <br />
+          Seller flow: product listings, subscription plans, withdrawals, bank
+          account verification, shipping info, and shareable product links{" "}
+          <br />
+          - Implemented secure payment systems and integrated various UI
+          component libraries such as Rizz UI and Headless UI <br />
+          Used Recharts for dynamic data visualizations and integrated libraries
+          like react-phone-input and PDF editing tools <br />
+          Collaborated in DevOps tasks including version control with GitHub and
+          CI/CD workflows <br />
+          - Focused on performance, user experience, and mobile responsiveness
+          across all pages <br />
         </p>
-<br /><br />
+        <br />
+        <br />
         <p>
           Freelance | Frontend developer <br />
-          Developed and deployed user-friendly web applications using React.js,
-          increasing user engagement. <br />
-          Integrated APIs, enhancing the website's functionality and{" "}
-          <performance className="br"></performance>
-          Optimized website performance, reducing page load time, resulting in a
-          better user experience.
+          - Developed and deployed user-friendly web applications using
+          React.js, increasing user engagement. <br />
+          Integrated APIs, enhancing the website's functionality and performance{" "}
+          <br />- Optimized website performance, reducing page load time,
+          resulting in a better user experience.
         </p>
       </motion.div>
     </motion.div>

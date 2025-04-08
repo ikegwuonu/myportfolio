@@ -93,8 +93,8 @@ const Body = () => {
         </div>
 
         <motion.a
-          href="./FRONTREAL.pdf"
-          download="Juliet_CV"
+          href="./Juliet_FE_CV.pdf"
+          download="Juliet_CV_FE"
           variants={fadeIn("right", "tween", 1, 1)}
         >
           <div className="download">

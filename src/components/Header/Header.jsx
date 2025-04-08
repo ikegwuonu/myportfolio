@@ -14,7 +14,7 @@ const Header = () => {
       variants={headerVariants}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
+      viewport={{ once: true, amount: 0.25 }}
     >
       <div className="logo">
         <img

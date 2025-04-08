@@ -1,5 +1,12 @@
 export const portfolioData=[
     {
+        name:"Azany B2B Seller",
+        link:"https://shopazany-b2b-fe.vercel.app/seller",
+        library:"Next.js",
+        framework:"react",
+        img:"./Hero.png"
+    },
+    {
         name:"Velvety",
         link:"https://ikegwuonu.github.io/Velvety/",
         library:"scss",

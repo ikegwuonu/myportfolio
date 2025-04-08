@@ -4,7 +4,14 @@ export const portfolioData=[
         link:"https://shopazany-b2b-fe.vercel.app/seller",
         library:"Next.js",
         framework:"react",
-        img:"./Hero.png"
+        img:"./b2b-seller.png"
+    },
+    {
+        name:"Azany B2B Buyer",
+        link:"https://shopazany-b2b-fe.vercel.app/buyer",
+        library:"Next.js",
+        framework:"react",
+        img:"./b2b-buyer.png"
     },
     {
         name:"Velvety",

@@ -3,14 +3,14 @@ export const portfolioData=[
         name:"Azany B2B Seller",
         link:"https://shopazany-b2b-fe.vercel.app/seller",
         library:"Next.js",
-        framework:"react",
+        framework:"Next.js",
         img:"./b2b-seller.png"
     },
     {
         name:"Azany B2B Buyer",
         link:"https://shopazany-b2b-fe.vercel.app/buyer",
         library:"Next.js",
-        framework:"react",
+        framework:"Next.js",
         img:"./b2b-buyer.png"
     },
     {

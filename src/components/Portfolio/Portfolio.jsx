@@ -42,6 +42,14 @@ const Portfolio = () => {
           All
         </button>
         <button
+          onClick={() => filter("Next.js")}
+          className={`${
+            menuProducts[0].framework === "Next.js" ? "active-menu" : ""
+          }`}
+        >
+          React
+        </button>
+        <button
           onClick={() => filter("react")}
           className={`${
             menuProducts[0].framework === "react" ? "active-menu" : ""

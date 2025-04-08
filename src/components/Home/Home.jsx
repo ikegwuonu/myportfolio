@@ -22,7 +22,7 @@ const Home = () => {
       >
         Highly skilled and dedicated Frontend Developer with 3 years of
         experience in building responsive, user-centric web applications.
-        Proficient in Wordpress, modern JavaScript frameworks, HTML, CSS, and a
+        Proficient in Next.js, React, JavaScript, HTML, CSS, and a
         strong advocate of best practices in UI/UX design and SEO practices.
       </motion.div>
 
@@ -52,7 +52,7 @@ const Home = () => {
           <div className="what-one-intro">
             <img src="./Vector (3).svg" alt="" />
             <p>
-              <h3>Wordpress development</h3>
+              <h3>Responsive Design</h3>
             </p>
           </div>
           <p>

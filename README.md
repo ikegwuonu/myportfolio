@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is my personal portfolio website built with **React**. The website showcases my skills, projects, and experiences as a frontend developer. It features smooth animations, responsive design, and API integrations, all while maintaining performance and a clean code structure.
+This is my personal portfolio website built with **React**. The website showcases my skills, projects, and experiences as a software developer. It features smooth animations, responsive design, and API integrations, all while maintaining performance and a clean code structure.
 
 ## Features
 

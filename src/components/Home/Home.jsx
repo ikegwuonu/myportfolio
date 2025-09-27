@@ -20,9 +20,9 @@ const Home = () => {
         className="about-details"
         variants={fadeIn("left", "tween", 0.4, 1)}
       >
-        Highly skilled and dedicated Frontend Developer with 3 years of
+        Highly skilled and dedicated Fullstack Developer with 3 years of
         experience in building responsive, user-centric web applications.
-        Proficient in Next.js, React, JavaScript, HTML, CSS, and a
+        Proficient in Node.js, Next.js, React, JavaScript, HTML, CSS, and a
         strong advocate of best practices in UI/UX design and SEO practices.
       </motion.div>
 

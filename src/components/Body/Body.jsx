@@ -36,7 +36,7 @@ const Body = () => {
           Juliet Ikegwuonu
         </motion.h2>
         <motion.p variants={fadeIn("right", "tween", 0.2, 1)}>
-          Frontend Developer
+          Software Developer
         </motion.p>
         <motion.div
           className="socials-div"

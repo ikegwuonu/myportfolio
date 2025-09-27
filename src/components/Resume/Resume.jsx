@@ -42,6 +42,8 @@ const Resume = () => {
             <img src="./briefcase.png" alt="" />
             <h3>Experience</h3>
           </div>
+          <p>Kreatoors</p>
+          <p>Software developer</p> <br />
           <p>Azany</p>
           <p>Frontend developer</p> <br />
           <p>Acme Software Labs</p>
@@ -74,6 +76,8 @@ const Resume = () => {
       <motion.div className='variants={fadeIn("left","tween",0.8,1)}'>
         <br />
         <h3>Professional Experience & Projects</h3> <br />
+        <p>Kreatoors | Software Developer</p>
+        <br />
         <p>
           Azany | Frontend Developer <br />
           - Translated complex Figma designs into responsive, pixel-perfect web

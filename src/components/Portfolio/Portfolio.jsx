@@ -47,6 +47,12 @@ const Portfolio = () => {
           All
         </button>
         <button
+          onClick={() => filter("Node.js")}
+          className={`${active === "Node.js" ? "active-menu" : ""}`}
+        >
+          Node.js
+        </button>
+        <button
           onClick={() => filter("Next.js")}
           className={`${active === "Next.js" ? "active-menu" : ""}`}
         >
